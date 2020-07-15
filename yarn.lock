@@ -1836,6 +1836,11 @@ boolbase@^1.0.0, boolbase@~1.0.0:
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
 
+bootstrap@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.5.0.tgz#97d9dbcb5a8972f8722c9962483543b907d9b9ec"
+  integrity sha512-Z93QoXvodoVslA+PWNdk23Hze4RBYIkpb5h8I2HY2Tu2h7A0LpAgLcyrhrSUyo2/Oxm2l1fRZPs1e5hnxnliXA==
+
 brace-expansion@^1.1.7:
   version "1.1.11"
   resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.11.tgz#3c7fcbf529d87226f3d2f52b966ff5271eb441dd"
@@ -8467,6 +8472,11 @@ vue-loader@^15.9.2:
     loader-utils "^1.1.0"
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
+
+vue-radial-progress@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/vue-radial-progress/-/vue-radial-progress-0.3.2.tgz#3a13f94435c3a5010935c1ff3d4ee5c93bd46d15"
+  integrity sha512-F4eA9IFqoY5ZPBJNsqIu3C8J6TQ/5aQxUOAy+6wjVOvK+ljjs/8g8gUpy5CE2/THDH68+avwqov3ibaG1AyZSQ==
 
 vue-router@^3.2.0:
   version "3.3.4"
