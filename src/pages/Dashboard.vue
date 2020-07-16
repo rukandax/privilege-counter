@@ -39,7 +39,7 @@
             class="col-6 mx-auto"
           >
             <button
-              @click="addPoints(answer.points)"
+              @click.prevent="addPoints(answer.points)"
               class="btn btn-outline-primary btn-block mb-3"
             >
               {{ answer.text }}
@@ -49,7 +49,7 @@
         <template v-if="questions[questionsIndex].type === 'boolean'">
           <div class="col-6">
             <button
-              @click="
+              @click.prevent="
                 addBooleanPoints(
                   questions[questionsIndex].data[questionsBooleanIndex]
                     .truePoints
@@ -62,7 +62,7 @@
           </div>
           <div class="col-6">
             <button
-              @click="
+              @click.prevent="
                 addBooleanPoints(
                   questions[questionsIndex].data[questionsBooleanIndex]
                     .falsePoints
